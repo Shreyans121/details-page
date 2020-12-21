@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+  <div class="testbox">
+    <form action="/">
+      <div class="banner">
+        <h1 style="text-transform: uppercase; line-height: 30px;">Profile</h1>
+      </div>
+      <div class="item">
+        <p>Name</p>
+        <div class="name-item">
+          <input type="text" name="First" placeholder="First" value="Shreyans" readonly/>
+          <input type="text" name="Last" placeholder="Last" value="Jain" readonly/>
+        </div>
+      </div>
+      <div class="item">
+        <p>Birth Date</p>
+        <input type="date" name="bdate" required/>
+        <i class="fas fa-calendar-alt"></i>
+      </div>
+      <div class="item">
+        <p>Details</p>
+        <div class="name-item">
+          <input type="text" name="First" placeholder="Roll No" value="2019UCO1659" readonly/>
+          <input type="text" name="Last" placeholder="Section" value="COE-2" readonly/>
+        </div>
+      </div>
+      <div class="item">
+        <p>Phone</p>
+        <input type="text" name="name"/>
+      </div>
+      <div class="item">
+        <p>Email</p>
+        <input type="text" name="name"/>
+      </div>
+      <div class="item">
+        <p>Address</p>
+        <input type="text" name="name" placeholder="Street address"/>
+        <input type="text" name="name" placeholder="Street address line 2"/>
+        <div class="city-item">
+          <input type="text" name="name" placeholder="City" />
+          <input type="text" name="name" placeholder="Region" />
+          <input type="text" name="name" placeholder="Postal / Zip code" />
+          <select>
+            <option value="">Country</option>
+            <option value="1">India</option>
+            <option value="2">England</option>
+            <option value="3">USA</option>
+            <option value="4" selected>France</option>
+            <option value="5">Other</option>
+          </select>
+        </div>
+      </div>
+      
+      <div class="btn-block">
+        <button type="submit" href="#">Edit</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
